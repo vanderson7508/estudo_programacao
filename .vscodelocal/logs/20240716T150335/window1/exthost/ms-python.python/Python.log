@@ -1,0 +1,103 @@
+2024-07-16 15:03:37.373 [info] Experiment 'pythonaacf' is active
+2024-07-16 15:03:37.373 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-16 15:03:37.373 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-16 15:03:37.373 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-16 15:03:37.373 [info] Experiment 'pythonTestAdapter' is active
+2024-07-16 15:03:37.389 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/vanderson/Projects/estudo_programacao/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:3)
+	at t.readdirSync (node:electron/js2c/node_init:2:11289)
+	at /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574598
+	at /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574507)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:536827)] {
+  errno: -2,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path: '/home/vanderson/Projects/estudo_programacao/.pixi/envs'
+}
+2024-07-16 15:03:37.390 [error] Dir "/home/vanderson/Projects/estudo_programacao/.pixi/envs" is not watchable (directory does not exist)
+2024-07-16 15:03:37.599 [info] VS Code was launched from an activated environment: '.venv', selecting it as the interpreter for workspace.
+2024-07-16 15:03:37.729 [info] > ./.venv/bin/python -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:39.227 [info] Starting Pylance language server.
+2024-07-16 15:03:40.344 [info] Experiment 'pythonaacf' is active
+2024-07-16 15:03:40.344 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-16 15:03:40.344 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-16 15:03:40.344 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-16 15:03:40.344 [info] Experiment 'pythonTestAdapter' is active
+2024-07-16 15:03:40.350 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/vanderson/Projects/estudo_programacao/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:3)
+	at t.readdirSync (node:electron/js2c/node_init:2:11289)
+	at /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574598
+	at /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:574507)
+	at async d.ensureWatchersReady (/home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:536827)] {
+  errno: -2,
+  syscall: 'scandir',
+  code: 'ENOENT',
+  path: '/home/vanderson/Projects/estudo_programacao/.pixi/envs'
+}
+2024-07-16 15:03:40.350 [error] Dir "/home/vanderson/Projects/estudo_programacao/.pixi/envs" is not watchable (directory does not exist)
+2024-07-16 15:03:40.437 [info] Default formatter is set to null for workspace /home/vanderson/Projects/estudo_programacao
+2024-07-16 15:03:40.446 [info] Starting Environment refresh
+2024-07-16 15:03:40.446 [info] Searching for interpreters in posix paths locator
+2024-07-16 15:03:40.450 [info] Searching for pyenv environments
+2024-07-16 15:03:40.450 [info] Searching for conda environments
+2024-07-16 15:03:40.450 [info] Searching for global virtual environments
+2024-07-16 15:03:40.450 [info] Searching for custom virtual environments
+2024-07-16 15:03:40.455 [info] pyenv is not installed
+2024-07-16 15:03:40.455 [info] Finished searching for pyenv environments: 7 milliseconds
+2024-07-16 15:03:40.455 [info] Finished searching for custom virtual envs: 8 milliseconds
+2024-07-16 15:03:40.460 [info] > conda info --json
+2024-07-16 15:03:40.466 [info] > pixi --version
+2024-07-16 15:03:40.467 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-07-16 15:03:40.473 [info] > hatch env show --json
+2024-07-16 15:03:40.473 [info] cwd: .
+2024-07-16 15:03:40.534 [info] > pyenv which python
+2024-07-16 15:03:40.534 [info] cwd: .
+2024-07-16 15:03:40.574 [info] Found: /bin/python3 --> /bin/python3.12
+2024-07-16 15:03:40.583 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-07-16 15:03:40.664 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-07-16 15:03:40.665 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-07-16 15:03:40.818 [info] > ./.venv/bin/python -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:40.841 [info] Found: /usr/local/bin/python3.12 --> /usr/local/bin/python3.12
+2024-07-16 15:03:40.866 [info] Python interpreter path: ./.venv/bin/python
+2024-07-16 15:03:40.920 [info] Found: /home/vanderson/Projects/estudo_programacao/.venv/bin/python --> /usr/bin/python3.12
+2024-07-16 15:03:40.926 [info] > ~/.virtualenvs/dundie/bin/python -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:40.927 [info] Found: /home/vanderson/Projects/estudo_programacao/.venv/bin/python3 --> /usr/bin/python3.12
+2024-07-16 15:03:40.928 [info] Found: /home/vanderson/Projects/estudo_programacao/.venv/bin/python3.12 --> /usr/bin/python3.12
+2024-07-16 15:03:40.934 [info] > ~/.virtualenvs/python_base/bin/python -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:40.934 [info] Finished searching for global virtual envs: 487 milliseconds
+2024-07-16 15:03:40.943 [info] Finished searching for interpreters in posix paths locator: 498 milliseconds
+2024-07-16 15:03:40.946 [info] Environments refresh paths discovered (event): 501 milliseconds
+2024-07-16 15:03:40.946 [info] Environments refresh paths discovered: 502 milliseconds
+2024-07-16 15:03:40.962 [info] > ~/.virtualenvs/vandersonn/bin/python -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:40.966 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:41.039 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:41.042 [info] > /usr/local/bin/python3.12 -I ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/interpreterInfo.py
+2024-07-16 15:03:41.068 [info] Environments refresh finished (event): 624 milliseconds
+2024-07-16 15:03:41.073 [info] Environment refresh took 629 milliseconds
+2024-07-16 15:03:41.087 [warning] could not find a pixi interpreter for the interpreter at /home/vanderson/Projects/estudo_programacao/.venv/bin/python
+2024-07-16 15:03:41.093 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariables.py
+2024-07-16 15:03:41.094 [info] shell: zsh
+2024-07-16 15:03:41.118 [info] > /bin/python3 ~/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariables.py
+2024-07-16 15:03:41.118 [info] shell: zsh
+2024-07-16 15:03:41.145 [info] Prepending environment variable PATH in collection with /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/zsh:/home/vanderson/Projects/estudo_programacao/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-16 15:03:41.145 [info] Prepending environment variable PS1 in collection with (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-07-16 15:03:41.145 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-07-16 15:03:41.145 [info] Send text to terminal: /bin/python3 /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariablesToFile.py /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+2024-07-16 15:03:42.010 [info] Starting Pylance language server.
+2024-07-16 15:04:00.875 [info] CreateEnv Trigger - Skipping for /home/vanderson/Projects/estudo_programacao/restaurante.py
+2024-07-16 15:04:00.952 [info] Send text to terminal: /home/vanderson/Projects/estudo_programacao/.venv/bin/python /home/vanderson/Projects/estudo_programacao/restaurante.py
+2024-07-16 15:04:07.510 [info] Send text to terminal: /home/vanderson/Projects/estudo_programacao/.venv/bin/python /home/vanderson/Projects/estudo_programacao/restaurante.py

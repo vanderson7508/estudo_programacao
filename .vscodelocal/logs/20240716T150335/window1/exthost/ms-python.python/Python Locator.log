@@ -1,0 +1,46 @@
+2024-07-16 15:03:37.408 [info] Starting Python Locator /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python-env-tools/bin/pet server
+2024-07-16 15:03:37.408 [info] Started Refreshing Environments
+2024-07-16 15:03:37.457 [info] Discovered env: /home/vanderson/.virtualenvs/dundie/bin/python
+2024-07-16 15:03:37.459 [info] Discovered env: /home/vanderson/.virtualenvs/vandersonn/bin/python
+2024-07-16 15:03:37.601 [info] Discovered env: /home/vanderson/.virtualenvs/python_base/bin/python
+2024-07-16 15:03:37.718 [info] Discovered env: /home/vanderson/Projects/estudo_programacao/.venv/bin/python
+2024-07-16 15:03:37.718 [info] Discovered env: /usr/local/bin/python3.12
+2024-07-16 15:03:37.720 [info] Discovered env: /usr/bin/python3
+2024-07-16 15:03:37.720 [info] Discovered env: /bin/python3
+2024-07-16 15:03:37.722 [info] Locator Conda took 14.634693ms
+2024-07-16 15:03:37.723 [info] Locator Homebrew took 4.662794ms
+2024-07-16 15:03:37.724 [info] Locator LinuxGlobalPython took 63.490987ms
+2024-07-16 15:03:37.729 [info] Locator PipEnv took 9.149µs
+2024-07-16 15:03:37.729 [info] Locator Poetry took 159.028µs
+2024-07-16 15:03:37.729 [info] Locator PyEnv took 209.802µs
+2024-07-16 15:03:37.729 [info] Locator Venv took 978ns
+2024-07-16 15:03:37.729 [info] Locator VirtualEnv took 1.396µs
+2024-07-16 15:03:37.729 [info] Locator VirtualEnvWrapper took 1.397µs
+2024-07-16 15:03:37.730 [info] Environments found using locators in 64.511364ms
+2024-07-16 15:03:37.730 [info] Environments in PATH found in 126.749124ms
+2024-07-16 15:03:37.730 [info] Environments in global virtual env paths found in 19.052346ms
+2024-07-16 15:03:37.730 [info] Environments in custom search paths found in 28.431014ms
+2024-07-16 15:03:37.730 [info] Refresh completed in 126ms
+2024-07-16 15:03:40.350 [info] Starting Python Locator /home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python-env-tools/bin/pet server
+2024-07-16 15:03:40.357 [info] Started Refreshing Environments
+2024-07-16 15:03:40.396 [info] Discovered env: /home/vanderson/Projects/estudo_programacao/.venv/bin/python
+2024-07-16 15:03:40.396 [info] Discovered env: /home/vanderson/.virtualenvs/dundie/bin/python
+2024-07-16 15:03:40.396 [info] Discovered env: /home/vanderson/.virtualenvs/vandersonn/bin/python
+2024-07-16 15:03:40.396 [info] Discovered env: /home/vanderson/.virtualenvs/python_base/bin/python
+2024-07-16 15:03:40.397 [info] Discovered env: /usr/local/bin/python3.12
+2024-07-16 15:03:40.538 [info] Discovered env: /bin/python3
+2024-07-16 15:03:40.560 [info] Discovered env: /usr/bin/python3
+2024-07-16 15:03:40.633 [info] Locator Conda took 20.439808ms
+2024-07-16 15:03:40.641 [info] Locator Homebrew took 5.068781ms
+2024-07-16 15:03:40.655 [info] Locator LinuxGlobalPython took 77.187437ms
+2024-07-16 15:03:40.664 [info] Locator PipEnv took 7.263µs
+2024-07-16 15:03:40.665 [info] Locator Poetry took 129.555µs
+2024-07-16 15:03:40.666 [info] Locator PyEnv took 238.577µs
+2024-07-16 15:03:40.674 [info] Locator Venv took 1.397µs
+2024-07-16 15:03:40.675 [info] Locator VirtualEnv took 1.886µs
+2024-07-16 15:03:40.678 [info] Locator VirtualEnvWrapper took 908ns
+2024-07-16 15:03:40.689 [info] Environments found using locators in 78.554294ms
+2024-07-16 15:03:40.801 [info] Environments in PATH found in 148.764755ms
+2024-07-16 15:03:40.820 [info] Environments in global virtual env paths found in 19.672674ms
+2024-07-16 15:03:40.828 [info] Environments in custom search paths found in 18.54544ms
+2024-07-16 15:03:40.836 [info] Refresh completed in 149ms

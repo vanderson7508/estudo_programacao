@@ -1,0 +1,31 @@
+2024-07-16 15:03:38.748 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-16 15:03:39.211 [info] [Info  - 3:03:39 PM] (10942) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-16 15:03:39.212 [info] [Info  - 3:03:39 PM] (10942) Server root directory: file:///home/vanderson/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-16 15:03:39.212 [info] [Info  - 3:03:39 PM] (10942) Starting service instance "estudo_programacao"
+2024-07-16 15:03:39.249 [info] [Info  - 3:03:39 PM] (10942) No include entries specified; assuming /home/vanderson/Projects/estudo_programacao
+2024-07-16 15:03:39.249 [info] [Info  - 3:03:39 PM] (10942) Auto-excluding **/node_modules
+2024-07-16 15:03:39.249 [info] [Info  - 3:03:39 PM] (10942) Auto-excluding **/__pycache__
+2024-07-16 15:03:39.250 [info] [Info  - 3:03:39 PM] (10942) Auto-excluding **/.*
+2024-07-16 15:03:39.275 [info] [Info  - 3:03:39 PM] (10942) Found 1 source file
+2024-07-16 15:03:39.605 [info] [Info  - 3:03:39 PM] (10942) Background analysis(1) root directory: file:///home/vanderson/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-16 15:03:39.606 [info] [Info  - 3:03:39 PM] (10942) Background analysis(1) started
+2024-07-16 15:03:40.355 [info] [Info  - 3:03:40 PM] Server process exited successfully
+2024-07-16 15:03:41.588 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-16 15:03:41.995 [info] [Info  - 3:03:41 PM] (11486) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-16 15:03:41.996 [info] [Info  - 3:03:41 PM] (11486) Server root directory: file:///home/vanderson/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-16 15:03:42.000 [info] [Info  - 3:03:42 PM] (11486) Starting service instance "estudo_programacao"
+2024-07-16 15:03:42.023 [info] [Info  - 3:03:42 PM] (11486) Setting pythonPath for service "estudo_programacao": "/home/vanderson/Projects/estudo_programacao/.venv/bin/python"
+2024-07-16 15:03:42.023 [info] [Info  - 3:03:42 PM] (11486) Setting environmentName for service "estudo_programacao": "3.12.3 (.venv venv)"
+2024-07-16 15:03:42.023 [info] [Info  - 3:03:42 PM] (11486) No include entries specified; assuming /home/vanderson/Projects/estudo_programacao
+2024-07-16 15:03:42.024 [info] [Info  - 3:03:42 PM] (11486) Auto-excluding **/node_modules
+2024-07-16 15:03:42.024 [info] [Info  - 3:03:42 PM] (11486) Auto-excluding **/__pycache__
+2024-07-16 15:03:42.024 [info] [Info  - 3:03:42 PM] (11486) Auto-excluding **/.*
+2024-07-16 15:03:42.047 [info] [Info  - 3:03:42 PM] (11486) Assuming Python version 3.12.3.final.0
+2024-07-16 15:03:42.099 [info] [Info  - 3:03:42 PM] (11486) Found 1 source file
+2024-07-16 15:03:42.409 [info] [Info  - 3:03:42 PM] (11486) Background analysis(1) root directory: file:///home/vanderson/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-16 15:03:42.410 [info] [Info  - 3:03:42 PM] (11486) Background analysis(1) started
+2024-07-16 15:03:51.234 [info] [Info  - 3:03:51 PM] (11486) Indexer background runner(2) root directory: file:///home/vanderson/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist (index)
+2024-07-16 15:03:51.235 [info] [Info  - 3:03:51 PM] (11486) Indexing(2) started
+2024-07-16 15:03:51.437 [info] [Info  - 3:03:51 PM] (11486) scanned(2) 10 files over 1 exec env
+2024-07-16 15:03:51.608 [info] [Info  - 3:03:51 PM] (11486) indexed(2) 3 files over 1 exec env
+2024-07-16 15:03:51.616 [info] [Info  - 3:03:51 PM] (11486) Indexing finished(2).

@@ -1,0 +1,24 @@
+2024-07-16 15:03:36.783 [info] Extension host with pid 10692 started
+2024-07-16 15:03:36.783 [info] Skipping acquiring lock for /home/vanderson/Projects/estudo_programacao/.vscodelocal/User/workspaceStorage/d0079b43b887c03a1efca37372428a95.
+2024-07-16 15:03:36.885 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-16 15:03:36.889 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:.venv'
+2024-07-16 15:03:37.136 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-16 15:03:37.450 [info] Eager extensions activated
+2024-07-16 15:03:37.460 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-16 15:03:37.463 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-16 15:03:37.485 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-07-16 15:03:37.596 [info] ExtensionService#_doActivateExtension Gruntfuggly.activitusbar, startup: false, activationEvent: 'onStartupFinished'
+2024-07-16 15:03:37.763 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-16 15:03:37.798 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-07-16 15:03:40.474 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-07-16 15:03:40.643 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-16 15:03:40.712 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1129
+2024-07-16 15:03:40.891 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1130
+2024-07-16 15:03:41.342 [error] Error: Starting server failed
+	at S.$start (/home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:2007334)
+	at async S.sendNotification (/home/vanderson/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1992723)
+2024-07-16 15:03:50.835 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-07-16 15:03:55.338 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1344
+2024-07-16 15:04:00.374 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1344
+2024-07-16 15:04:05.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1345
+2024-07-16 15:04:10.448 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1345
