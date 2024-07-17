@@ -9,10 +9,14 @@ class Conta_bancaria:
         return f'Titular: {self._titular} | Saldo: {self._saldo}'
 
 
+    def ativar_conta(self):
+        self._ativo = not self._ativo
+
+
 conta_lud = Conta_bancaria('Ludmilla', 500)
 conta_vando = Conta_bancaria('vanderson', 500)
 
-print(conta_lud)
+conta_lud.ativar_conta()
+
+print(conta_lud._titular)
 print(conta_vando)
-
-
