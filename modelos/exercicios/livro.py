@@ -1,9 +1,11 @@
 class Livro:
+    lista_livros = []
     def __init__(self, titulo, autor, ano_publicacao):
         self._titulo = titulo
         self._autor = autor
         self._ano_publicacao = ano_publicacao
         self._disponivel = True
+        self.lista_livros.append(Livro)
 
 
     def __str__(self):
@@ -35,13 +37,12 @@ class Livro:
         self._disponivel = not self._disponivel
 
 
+    def verificar_disponibilidade(self, ano):
+        if ano == self._ano_publicacao:
+            pass
 
 livro1 = Livro('cabana', 'john', 1988)
 livro2 = Livro('habitos', 'jack', 2013)
 
+print(Livro.lista_livros)
 
-print(livro1)
-print(livro2)
-
-livro1.emprestar('cabana')
-livro1.emprestar('cabana')
