@@ -5,7 +5,7 @@ class Livro:
         self._autor = autor
         self._ano_publicacao = ano_publicacao
         self._disponivel = True
-        Livro.livros.append(self)
+        self.livros = []
 
 
 
@@ -39,13 +39,16 @@ class Livro:
 
     @staticmethod
     def verificar_disponibilidade(ano):
-        if ano == Livro.ano_publicacao:
-            for livro in Livro.livros:
-                return livro
+        livros_disponiveis = [livro for livro in Livro.livros if livro._ano_publicacao == ano and livro._disponivel]
+        return livros_disponiveis
 
 
 livro1 = Livro('cabana', 'john', 1988)
-livro2 = Livro('habitos', 'jack', 2013)
+livro2 = Livro('habitos', 'jack', 1990)
 
-Livro.verificar_disponibilidade(1988)
+Livro.livros = [livro1, livro2]
+resultado = Livro.verificar_disponibilidade(1988)
+
+for livro in resultado:
+    print(livro)
 
